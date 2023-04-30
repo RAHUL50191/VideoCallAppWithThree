@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Three.js TypeScript Tutorials by Sean Bradley : https://sbcode.net/threejs</title>
+    <style>
+      body {
+        overflow: hidden;
+        margin: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script crossorigin src="https://unpkg.com/@daily-co/daily-js"></script>
+    <script>
+      callE1 = document.getElementById("call");
+      callFrame = window.DailyIframe.createFrame(callE1, { iframeStyle: { width: "100%", height: "56vh" } });
+
+      callFrame.join({
+        url: "https://dual-communication.daily.co/UBqCU7YXeZCnOvS1vokg",
+        token:
+          "eyJhbGci0iJIUzI1NiIsInR5cC161kpXVCJ9. eyJvIjp0cnV1LCJkIjoiNDlhYzNmMmYtOTdkYS00MGZmLWE1NTE TOWNhYmE5ZTQ0MDkwIiwiaWF0IjoxNjQ1NTMXNDE1FQ. M4cN8vZSSVDqPxD0mvvQeTZA5v4vSc3197yx4p-F21c",
+      });
+      document.querySelector("#start").addEventListener("click", () => {
+        callFrame.startTranscription();
+      });
+      callFrame.on("app-message", (message) => {
+        console.log(message);
+      });
+    </script>
+    <script type="module" src="bundle.js"></script>
+    <div id="call"></div>
+    <div id="controls">
+      <button id="start">Start transcription</button>
+      <button id="stop">Stop transcription</button>
+    </div>
+  </body>
+</html>
