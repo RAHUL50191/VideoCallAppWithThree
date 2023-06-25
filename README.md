@@ -1,5 +1,6 @@
-THIS PROJECT IS UNDER DEVELOPMENT<br/>
-#### Version1.0.0
+# THIS PROJECT IS UNDER DEVELOPMENT<br/>
+
+## Version1.0.0
 Main :
 Using Three-fiber modeling animated character
 
@@ -11,10 +12,10 @@ made with :
 maximo,poly heaven,poly pizza ,readyplayer.me
 ## AIM:<br/>
 
-1)To use transcript text in ML/ analyse data
-2)grammer/pitch rate / topic relavent speech/ non abusive / time limit
-3)gather resource for english speaking <a href="https://learnenglish.britishcouncil.org/skills/speaking/a1-speaking/checking-understanding">example</a>
-4)Robot 3d model with required animation.
+1)To use transcript text in ML/ analyse data<br/>
+2)grammer/pitch rate / topic relavent speech/ non abusive / time limit<br/>
+3)gather resource for english speaking <a href="https://learnenglish.britishcouncil.org/skills/speaking/a1-speaking/checking-understanding">example</a><br/>
+4)Robot 3d model with required animation.<br/>
 
 ## API / resources <br/>
 
