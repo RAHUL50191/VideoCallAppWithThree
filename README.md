@@ -1,5 +1,14 @@
 THIS PROJECT IS UNDER DEVELOPMENT<br/>
+#### Version1.0.0
+Main :
+Using Three-fiber modeling animated character
 
+Upcoming major update :
+1)Video App
+2)Transcript
+
+made with :
+maximo,poly heaven,poly pizza ,readyplayer.me
 ## AIM:<br/>
 
 1)To use transcript text in ML/ analyse data
