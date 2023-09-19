@@ -13,11 +13,11 @@ export default function Exp() {
         <mesh scale={new THREE.Vector3(15,5,5)} rotateX={-Math.PI/2}  position={[0,1.75,-2.5]}>
             <planeGeometry />
             <meshStandardMaterial />
-            <meshBasicMaterial color={'#E5D4ED'} map={textureCloud} side={DoubleSide}  />
+            <meshBasicMaterial map={textureCloud} side={DoubleSide}  />
         </mesh> 
         <mesh scale={new THREE.Vector3(5,15,5)} rotation ={[Math.PI/2,0,Math.PI/2]} position={[0,-.75,0]}>
             <planeGeometry args={[1,1,1]} />
-            <meshStandardMaterial  color={'#E5D4ED'} side={DoubleSide}/>
+            <meshStandardMaterial  color={"#fffff8"}  side={DoubleSide}/>
         </mesh> 
         {/*
           <mesh scale={new THREE.Vector3(.5,.5,.5)}  position={[0,-0.5,-.45]}>
