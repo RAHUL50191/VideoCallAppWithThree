@@ -4,9 +4,9 @@ import { Avatar } from '../model/Avatar'
 import { DoubleSide,TextureLoader } from 'three'
  import { useLoader } from '@react-three/fiber';
 export default function Exp() {
-    const texturePeace = useLoader(TextureLoader, './texture/peaceBackground.jpg');
-    const textureCloud = useLoader(TextureLoader, './texture/cloud.jpg');
-    const textureCloud1 = useLoader(TextureLoader, './texture/cloud1.jpg');
+    const texturePeace = useLoader(TextureLoader, './assets/texture/peaceBackground.jpg');
+    const textureCloud = useLoader(TextureLoader, './assets/texture/cloud.jpg');
+    const textureCloud1 = useLoader(TextureLoader, './assets/texture/cloud1.jpg');
   return (
     <>
         <Avatar/>

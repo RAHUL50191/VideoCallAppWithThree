@@ -1,6 +1,7 @@
 // import { useEffect, useState } from "react";
 import "./VideoCallApp.css";
-import Robot from "./Robot";
+// import Robot from "./Robot";
+import Three from "./component/Three";
 function VideoCallApp() {
   return (
     <>
@@ -151,7 +152,7 @@ function VideoCallApp() {
           </div>
         </div>
       </div>
-      <Robot />
+      <Three />
     </>
   );
 }

@@ -15,7 +15,7 @@ const About=()=>{
       <span className="text-[#212121] ">Enthusiastic developer</span>
       </h1>
       <button className="bg-indigo-600 py-4 px-4 mt-6 text-white rounded-lg">Contact me</button>
-
+      
     </motion.div>
     </Section>)
 }

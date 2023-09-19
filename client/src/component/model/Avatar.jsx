@@ -17,24 +17,24 @@ export function Avatar(props) {
     headfollow: false,
   });
   //load model
-  const { nodes, materials } = useGLTF('model/avatar.glb');
+  const { nodes, materials } = useGLTF('assets/model/avatar.glb');
   //load animations
-  const { animations: idle } = useFBX('animation/Idle.fbx');
-  const { animations: explaning } = useFBX('animation/Explaining.fbx');
-  const { animations: falling } = useFBX('animation/Falling.fbx');
-  const { animations: handexplain } = useFBX('animation/Handexplain.fbx');
-  const { animations: noding } = useFBX('animation/HeadNodYes.fbx');
-  const { animations: hello } = useFBX('animation/Hello.fbx');
-  const { animations: hellositting } = useFBX('animation/Hellositing.fbx');
-  const { animations: sitting } = useFBX('animation/Sitting.fbx'); 
-  const { animations: sittingMotion } = useFBX('animation/SittingMotion.fbx');  
-  const { animations: talking } = useFBX('animation/Talking.fbx'); 
-  const { animations: talkinglefthandup } = useFBX('animation/Talkinglefthandup.fbx');
-  const { animations: talkingred } = useFBX('animation/TalkingRed.fbx');
-  const { animations: toyou} = useFBX('animation/Toyou.fbx');
-  const { animations: typing } = useFBX('animation/Typing.fbx');
-  const { animations: walking } = useFBX('animation/Walking.fbx');
-  const { animations: waving } = useFBX('animation/Waving.fbx');
+  const { animations: idle } = useFBX('assets/animation/Idle.fbx');
+  const { animations: explaning } = useFBX('assets/animation/Explaining.fbx');
+  const { animations: falling } = useFBX('assets/animation/Falling.fbx');
+  const { animations: handexplain } = useFBX('assets/animation/Handexplain.fbx');
+  const { animations: noding } = useFBX('assets/animation/HeadNodYes.fbx');
+  const { animations: hello } = useFBX('assets/animation/Hello.fbx');
+  const { animations: hellositting } = useFBX('assets/animation/Hellositing.fbx');
+  const { animations: sitting } = useFBX('assets/animation/Sitting.fbx'); 
+  const { animations: sittingMotion } = useFBX('assets/animation/SittingMotion.fbx');  
+  const { animations: talking } = useFBX('assets/animation/Talking.fbx'); 
+  const { animations: talkinglefthandup } = useFBX('assets/animation/Talkinglefthandup.fbx');
+  const { animations: talkingred } = useFBX('assets/animation/TalkingRed.fbx');
+  const { animations: toyou} = useFBX('assets/animation/Toyou.fbx');
+  const { animations: typing } = useFBX('assets/animation/Typing.fbx');
+  const { animations: walking } = useFBX('assets/animation/Walking.fbx');
+  const { animations: waving } = useFBX('assets/animation/Waving.fbx');
   //name animation
   idle[0].name="Idle"
   explaning[0].name = "Explaning"
